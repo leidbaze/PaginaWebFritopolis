@@ -1,0 +1,147 @@
+@font-face {
+    font-family: fuenteXD;
+    src: url("general/fuente.ttf") format("truetype");
+}
+body{
+	background-color: #d9c18f;
+	margin: none;
+}
+div#titulo{
+	background-color: transparent;
+	width: 100%;
+	height: 100px;
+	margin: 0px;
+	display: flex;
+}
+img#logo{
+	width: 150px;
+	height: 150px;
+	margin-right: 100px;
+	margin-left: auto;
+	margin-top: 0%;
+}
+img#titulo{
+	height: 100%;
+	margin-right: 610px;
+	margin-top: 40px;
+}
+div#navegacion{
+	background-color: transparent;
+	width: 100%;
+	height: 50px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+div.nave{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+p.nav{
+	font-family: fuenteXD, sans-serif;
+}
+p.cont{
+	font-family: fuenteXD, sans-serif;
+}
+p.dat{
+	font-family: fuenteXD, sans-serif;
+}
+div#contenedor{
+	background-color: transparent;
+	margin: 5px;
+	width: 100%;
+	height: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+}
+img.com{
+	width: 30%;
+	height: 85%;
+	margin: 15px;
+	margin-top: 20px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: #c29652;
+	flex: 30%;
+}
+div#paquetes{
+	background-color: #610808;
+	margin: 15px;
+	width: 100%;
+	height: 33%;
+	display: flex;
+	flex-wrap: wrap;	
+	border-radius: 15px; /*boorde redondeado para quitar esa sensacion tan recta*/
+}
+div#comybeb{
+	background-color: #610808;
+	margin: 15px 100px 15px 100px;
+	width: 35%;
+	height: 60%;
+	display: flex;
+	flex-wrap: wrap;	
+	border-radius: 15px;
+}
+img.comybeb{
+	width: 85%;
+	height: 40%;
+	margin: 20px 35px 20px 35px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: #c29652;
+}
+div#mini{
+	background-color: transparent;
+	margin: 15px;
+	width: 47%;
+	height: 60%;
+	margin: 15px;
+	border-radius: 15px;
+}
+div#mes{
+	background-color: #610808;
+	margin: 0px 15px 30px 15px;
+	width: 100%;
+	height: 45%;
+	display: flex;
+	flex-wrap: wrap;	
+	border-radius: 15px;
+}
+img#mes{
+	width: 50%;
+	height: 80%;
+	margin: 20px 35px 20px 35px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: #c29652;
+}
+p#mes{
+	width: 30%;
+	font-family: fuenteXD, sans-serif;
+	color: #d9c18f;
+	margin:auto;
+	margin-right: 50px;
+	font-size: 30px;	
+	text-align: justify;
+}
+div#postres{
+	background-color: #610808;
+	margin: 55px 15px 5px 15px;
+	width: 100%;
+	height: 45%;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 15px;	
+}
+div#patas{
+	background-color: #b58707;
+	width: 100%;
+	height: 100px;
+	margin-top: 20px;
+	display: flex;
+
+}
+div.datos{
+	margin-left: 100px;
+	margin-right: 100px;
+}

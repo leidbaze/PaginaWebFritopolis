@@ -1,0 +1,17 @@
+General
+	Puntos 
+	Lineas
+	Etc
+Inicio
+	png contactos
+	Mapa
+	Promociones
+Menu
+	Nada
+Promociones
+	Todo
+
+Galeria
+	1 o 2 postre
+	1 bebida
+	paquetes

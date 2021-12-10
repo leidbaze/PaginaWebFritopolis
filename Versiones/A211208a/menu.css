@@ -1,0 +1,188 @@
+@font-face {
+    font-family: fuenteXD;
+    src: url("general/fuente.ttf") format("truetype");
+}
+body{
+	background-color: #d9c18f;
+	margin: none;
+}
+div#titulo{
+	background-color: transparent;
+	width: 100%;
+	height: 100px;
+	margin: 0px;
+	display: flex;
+}
+img#logo{
+	width: 150px;
+	height: 150px;
+	margin-right: 100px;
+	margin-left: auto;
+	margin-top: 0%;
+}
+img#titulo{
+	height: 100%;
+	margin-right: 610px;
+	margin-top: 40px;
+}
+div#navegacion{
+	background-color: transparent;
+	width: 100%;
+	height: 50px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+div.nave{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+p.nav{
+	font-family: fuenteXD, sans-serif;
+}
+p.cont{
+	font-family: fuenteXD, sans-serif;
+}
+p.dat{
+	font-family: fuenteXD, sans-serif;
+}
+div#contenedor{
+	background-color: transparent;
+	margin: 5px;
+	width: 100%;
+	height: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+}
+div.nombre{
+	background-color: transparent;
+	margin: 30px auto 30px 10px;
+	width: 15%;
+	height: 100%;
+}
+div.precio{
+	background-color: transparent;
+	margin: 30px auto 30px auto;
+	width: 7%;
+	height: 100%;
+}
+div.descripcion{
+	background-color: transparent;
+	margin: 30px auto 30px auto;
+	width: 65%;
+	height: 100%;
+}
+p.nombre{
+	font-family: fuenteXD, sans-serif;
+	color: #d9c18f;
+	margin:4px auto 2px 15px;
+	margin-right: 15px;
+	font-size: 20px;
+}
+p.precio{
+	font-family: fuenteXD, sans-serif;
+	color: #d9c18f;
+	margin:4px auto 2px 15px;
+	margin-right: 15px;
+	font-size: 20px;
+}
+p.descripcion{
+	font-family: fuenteXD, sans-serif;
+	color: #d9c18f;
+	margin:4px auto 2px 15px;
+	margin-right: 15px;
+	font-size: 20px;
+}
+div#paquetes{
+	background-color: #610808;
+	margin: 15px;
+	width: 100%;
+	height: 22%;
+	display: flex;
+	flex-wrap: wrap;	
+	border-radius: 15px; /*boorde redondeado para quitar esa sensacion tan recta*/
+}
+div#comidas{
+	background-color: #610808;
+	margin: 15px;
+	width: 100%;
+	height: 22%;
+	display: flex;
+	flex-wrap: wrap;	
+	border-radius: 15px;
+}
+div#comuestra{
+	margin: -170px 30PX 30px auto;
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+img.muestra{
+	border-style: solid;
+	border-color: #c29652;
+	width: 170px;
+	height: 120px;
+	margin: auto;
+	border-radius: 15px;
+}
+div#bebidas{
+	background-color: #610808;
+	margin: 15px;
+	width: 100%;
+	height: 22%;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 15px;	
+}
+div#bemuestra{
+	margin: 30px 40px 30px 40px;
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+img#bemuestra{
+	border-style: solid;
+	border-color: #c29652;
+	width: 250px;
+	height: 170px;
+	margin: -5px 45px 30px 355px;
+	border-radius: 15px;
+}
+div#postres{
+	background-color: #610808;
+	margin: 15px;
+	width: 100%;
+	height: 22%;
+	display: flex;
+	flex-wrap: wrap;	
+	border-radius: 15px;
+}
+div#pomuestra{
+	margin: 30px 50px 30px 30px;
+	width: 48%;
+	height: 100%;
+	display: flex;
+	
+}
+img.pomuestra{
+	border-style: solid;
+	border-color: #c29652;
+	width: 250px;
+	height: 170px;
+	margin: 0px 30px;
+	border-radius: 15px;
+}
+div#patas{
+	background-color: #b58707;
+	width: 100%;
+	height: 100px;
+	margin-top: 20px;
+	display: flex;
+
+}
+div.datos{
+	margin-left: 100px;
+	margin-right: 100px;
+}

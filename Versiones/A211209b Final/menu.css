@@ -1,0 +1,231 @@
+/*Fuente ocupada en los textos*/
+@font-face {
+    font-family: fuenteXD;
+    src: url("general/fuente.ttf") format("truetype");
+}
+/*Cuerpo*/
+body{
+	background-color: #d9c18f; /*Se pinto el body para no pintar el resto de contenedores del mismo color*/
+	margin: none;
+}
+/*Empieza el titulo y el icono de la pagina*/
+div#titulo{
+	background-color: transparent;
+	width: 100%; /*Ocupa el total del ancho de la pagina*/
+	height: 100px;
+	margin: 0px;
+	display: flex;/*Nos permite colocar elementos como si fuera una tabla*/
+}
+/*Detallamos el tamaño del logo*/
+img#logo{
+	width: 150px;
+	height: 150px;/*dimensiones cuadradas*/
+	margin-right: 50px;
+	margin-left: auto;
+	margin-top: 0px;
+}
+/*Detallamos las caracteristicas del titulo que es una imagen*/
+img#titulo{
+	height: 100%;
+	margin-right: 610px;
+	margin-top: 40px;
+}
+/*Empieza la barra de navegacion*/
+div#navegacion{
+	background-color: transparent;
+	width: 100%;
+	height: 50px;
+	margin-top: 90px;
+	display: flex;
+	justify-content: center;/*Con esto alineamos los elementos */
+}
+/*Definimos caracteristicas de los contendores de la los elementos de la barra de navegacion*/
+div.nave{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+/*Configuramos las caracteristicas de los enlaces en general*/
+a:link, a:visited{
+	font-family: fuenteXD, sans-serif;
+	color: #610808;
+	font-size: 20px;
+	text-decoration: none; /*Limpiamos la apariencia del enlace*/
+}
+/*Le ponemos un efecto al pasar el cursor por encima*/
+a:hover{
+	font-size: 25px; 
+}
+/*Le damos un formato a las letras de la barra de navegacion*/
+p.nav{
+	font-family: fuenteXD, sans-serif;
+}
+/*Le damos una apariencia mas grande a la seccion donde nos encontramos*/
+p#aqui{
+	font-family: fuenteXD, sans-serif;
+	color: #610808;
+	font-size: 30px;
+	margin-top: 5px;
+}
+/*Definimos el contenedor de la parte central de la pagina*/
+div#contenedor{
+	background-color: transparent;
+	margin: 5px;
+	width: 100%;
+	height: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+}
+/*Detallamos todas las divisiondes del nombre*/
+div.nombre{
+	background-color: transparent;
+	margin: 30px auto 30px 10px;
+	width: 15%;
+	height: 100%;
+}
+/*Detallamos todas las divisiones del precio*/
+div.precio{
+	background-color: transparent;
+	margin: 30px auto 30px auto;
+	width: 7%;
+	height: 100%;
+}
+/*Detallamos todas lsa divisiones de la descripcion*/
+div.descripcion{
+	background-color: transparent;
+	margin: 30px auto 30px auto;
+	width: 65%;
+	height: 100%;
+}
+/*Texto del nombre*/
+p.nombre{
+	font-family: fuenteXD, sans-serif;
+	color: #d9c18f;
+	margin:4px auto 2px 15px;
+	margin-right: 15px;
+	font-size: 20px;
+}
+/*Texto del precio*/
+p.precio{
+	font-family: fuenteXD, sans-serif;
+	color: #d9c18f;
+	margin:4px auto 2px 15px;
+	margin-right: 15px;
+	font-size: 20px;
+}
+/*Texto de la descripcion*/
+p.descripcion{
+	font-family: fuenteXD, sans-serif;
+	color: #d9c18f;
+	margin:4px auto 2px 15px;
+	margin-right: 15px;
+	font-size: 20px;
+}
+/*Division de los paquetes*/
+div#paquetes{
+	background-color: #610808;
+	margin: 15px;
+	width: 100%;
+	height: 22%;
+	display: flex;
+	flex-wrap: wrap;	
+	border-radius: 15px; /*boorde redondeado para quitar esa sensacion tan recta*/
+}
+/*Division de las comidas*/
+div#comidas{
+	background-color: #610808;
+	margin: 15px;
+	width: 100%;
+	height: 22%;
+	display: flex;
+	flex-wrap: wrap;	
+	border-radius: 15px;
+}
+/*Contiene las imagenes de la comida*/
+div#comuestra{
+	margin: -170px 30PX 30px auto;
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+/*Imagenes de la comida*/
+img.muestra{
+	border-style: solid;
+	border-color: #c29652;
+	width: 170px;
+	height: 120px;
+	margin: auto;
+	border-radius: 15px;
+}
+/*Division de las bebidas*/
+div#bebidas{
+	background-color: #610808;
+	margin: 15px;
+	width: 100%;
+	height: 22%;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 15px;	
+}
+/*Contiene las imagenes de las bebidas*/
+div#bemuestra{
+	margin: 30px 40px 30px 40px;
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+/*Imagen de bebidas*/
+img#bemuestra{
+	border-style: solid;
+	border-color: #c29652;
+	width: 250px;
+	height: 170px;
+	margin: -5px 45px 30px 355px;
+	border-radius: 15px;
+}
+/*Division de los postres*/
+div#postres{
+	background-color: #610808;
+	margin: 15px;
+	width: 100%;
+	height: 22%;
+	display: flex;
+	flex-wrap: wrap;	
+	border-radius: 15px;
+}
+/*Contiene las imagenes de los postres*/
+div#pomuestra{
+	margin: 30px 50px 30px 30px;
+	width: 48%;
+	height: 100%;
+	display: flex;
+	
+}
+/*Imagenes de los postres*/
+img.pomuestra{
+	border-style: solid;
+	border-color: #c29652;
+	width: 250px;
+	height: 170px;
+	margin: 0px 30px;
+	border-radius: 15px;
+}
+/*Pie de pagina*/
+div#patas{
+	background-color: #b58707;
+	width: 100%;
+	height: 100px;
+	margin-top: 20px;
+	display: flex;
+
+}
+/*Contiene los datos del pie de pagina (osea los mios y eso)*/
+div.datos{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+/*texto del pie de pagina*/
+p.dat{
+	font-family: fuenteXD, sans-serif;
+}

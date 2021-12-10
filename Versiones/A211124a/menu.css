@@ -1,0 +1,86 @@
+div#titulo{
+	background-color: #856711;
+	width: 100%;
+	height: 100px;
+	margin: 0px;
+	display: flex;
+}
+img#logo{
+	width: 150px;
+	height: 150px;
+	margin-right: 100px;
+	margin-left: auto;
+	margin-top: 0%;
+}
+h1{
+	margin-right: 800px;
+}
+div#navegacion{
+	background-color: #856711;
+	width: 100%;
+	height: 50px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+}
+div.nave{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+p.nav{
+
+}
+div#contenedor{
+	background-color: #610808;
+	margin: 5px;
+	width: 100%;
+	height: 2000px;
+	display: flex;
+	flex-wrap: wrap;
+}
+div#paquetes{
+	background-color: #635213;
+	margin: 15px;
+	width: 100%;
+	height: 22%;
+	display: flex;
+	flex-wrap: wrap;	
+}
+div#comidas{
+	background-color: #635213;
+	margin: 15px;
+	width: 100%;
+	height: 22%;
+	display: flex;
+	flex-wrap: wrap;	
+}
+div#bebidas{
+	background-color: #635213;
+	margin: 15px;
+	width: 100%;
+	height: 22%;
+	display: flex;
+	flex-wrap: wrap;	
+}
+div#postres{
+	background-color: #635213;
+	margin: 15px;
+	width: 100%;
+	height: 22%;
+	display: flex;
+	flex-wrap: wrap;	
+}
+div#patas{
+	background-color: #856711;
+	width: 100%;
+	height: 100px;
+	margin-top: 20px;
+
+}
+div#datos{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+p.dat{
+
+}

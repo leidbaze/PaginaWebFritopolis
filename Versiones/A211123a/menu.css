@@ -1,0 +1,49 @@
+div#titulo{
+	background-color: #856711;
+	width: 100%;
+	height: 100px;
+	margin: 0px;
+	display: flex;
+}
+img#logo{
+	width: 150px;
+	height: 150px;
+	margin-right: 100px;
+	margin-left: auto;
+	margin-top: 0%;
+}
+h1{
+	margin-right: 800px;
+}
+div#navegacion{
+	background-color: #856711;
+	width: 100%;
+	height: 50px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+}
+div.nave{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+p.nav{
+
+}
+div#contenedor{
+
+}
+div#patas{
+	background-color: #856711;
+	width: 100%;
+	height: 100px;
+	margin-top: 20px;
+
+}
+div#datos{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+p.dat{
+
+}

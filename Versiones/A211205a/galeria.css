@@ -1,0 +1,107 @@
+@font-face{
+    font-family: fuenteXD;
+    src: url("general/fuente.ttf") format("truetype");
+}
+body{
+	background-color: #d9c18f;
+	margin: none;
+}
+div#titulo{
+	background-color: transparent;
+	width: 100%;
+	height: 100px;
+	margin: 0px;
+	display: flex;
+}
+img#logo{
+	width: 150px;
+	height: 150px;
+	margin-right: 100px;
+	margin-left: auto;
+	margin-top: 0%;
+}
+img#titulo{
+	height: 100%;
+	margin-right: 610px;
+	margin-top: 40px;
+}
+div#navegacion{
+	background-color: transparent;
+	width: 100%;
+	height: 50px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+div.nave{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+p.nav{
+	font-family: fuenteXD, sans-serif;
+}
+p.cont{
+	font-family: fuenteXD, sans-serif;
+}
+p.dat{
+	font-family: fuenteXD, sans-serif;
+}
+div#contenedor{
+	background-color: transparent;
+	margin: 5px;
+	width: 100%;
+	height: 2000px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div#comidas{
+	background-color: #610808;
+	margin: 15px;
+	width: 100%;
+	height: 30%;
+	display: flex;
+	flex-wrap: wrap;	
+	border-radius: 15px; /*boorde redondeado para quitar esa sensacion tan recta*/
+}
+div#bebidas{
+	background-color: #610808;
+	margin: 15px;
+	width: 45%;
+	height: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 15px;	
+}
+div#postres{
+	background-color: #610808;
+	margin: 15px;
+	width: 45%;
+	height: 30%;
+	display: flex;
+	flex-wrap: wrap;	
+	border-radius: 15px;
+}
+div#lugar{
+	background-color: #610808;
+	margin: 15px;
+	width: 100%;
+	height: 30%;
+	display: flex;
+	flex-wrap: wrap;	
+	border-radius: 15px;
+}
+div#patas{
+	background-color: #b58707;
+	width: 100%;
+	height: 100px;
+	margin-top: 20px;
+
+}
+div#datos{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+p.dat{
+
+}
